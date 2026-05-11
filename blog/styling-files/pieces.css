@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(222,219,210);
+    color: rgb(74,87,89);
+    padding: 10px;
+}
+
+a:link{
+    color: rgb(96,67,94);
+}
+
+a:visited{
+    color: rgb(196, 114, 212)
+}
+
+a:hover{
+    color: rgb(168,220,217);
+}
+
+.blog-piece{
+    background-color: rgb(185, 179, 164);
+    border-radius: 6px;
+    padding: 20px;
+    width: 1000px;
+
+    margin-left: 10px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+
+    font-size: larger;
+}
+
+.poem{
+    background-color: rgb(206, 147, 157);
+    border-radius: 6px;
+    padding: 20px;
+    width: 600px;
+
+    margin-left: 60px;
+    margin-bottom: 60px;
+
+    font-size: larger;
+}
