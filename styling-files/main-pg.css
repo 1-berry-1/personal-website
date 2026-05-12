@@ -1,0 +1,125 @@
+.main-menu {
+    background-color: rgb(124, 137, 112);
+    height: 35px;
+    padding-top: 0;
+}
+
+.main-menu ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+
+    font-size: x-large;
+}
+
+.main-menu ul li {
+    float: left;
+    padding-top: 2px;;
+    width: 600px;
+    text-align: center;
+}
+
+.main-menu ul li a {
+    padding: 15px 30px; 
+    color: rgb(222,219,210);
+    height: 0px;
+    width: 50px;
+    text-decoration: none;
+}
+
+.main-menu a:hover{
+    background-color: rgb(125, 112, 137);
+    padding: 2px 110px;
+
+}
+
+body {
+    background-color: rgb(222,219,210);
+    color: rgb(74,87,89)
+}
+
+.tool-bar:link{
+    color: white;
+}
+
+a:link{
+    color: rgb(96,67,94);
+}
+
+a:visited{
+    color: rgb(196, 114, 212)
+}
+
+a:hover{
+    color: rgb(168,220,217);
+}
+
+.container{
+    display: flex;
+    gap: 100px;
+}
+
+.pieces {    
+
+    background-color: rgb(237,175,184);
+    width: 300px;
+    height: 300px;
+
+    margin-top: 50px;
+    margin-left: 100px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+}
+
+.art{
+    width: 600px;
+    height: 250px;
+    background-color: rgb(247,225,215);
+
+    margin-top: 50px; 
+
+    padding: 10px;
+    text-align: center;
+}
+
+.socials {
+    background-color: rgb(237,175,184);
+    width: 300px;
+    height: 300px;
+
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 100px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+}
+
+
+.abt-me-pic {
+    margin: 50px;
+    margin-right: 1px;
+    width: 250px;
+    height: 100px;
+
+    text-align: center;
+    color: rgb(80, 73, 69);
+
+    background-color: rgb(249, 195, 171);
+}
+
+.main-pg-body{
+
+    margin: 50px;
+    margin-left: 1px;
+
+    padding: 20px;
+    font-size: large;
+
+    background-color: rgb(249, 195, 171);
+}

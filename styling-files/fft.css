@@ -1,0 +1,40 @@
+.main-menu {
+    background-color: rgb(58, 174, 224);
+    height: 35px;
+    padding-top: 0;
+}
+
+.main-menu ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+
+    font-size: x-large;
+    font-family: fantasy;
+}
+
+.main-menu ul li {
+    float: left;
+    padding-top: 2px;;
+    width: 600px;
+    text-align: center;
+    margin: 0;
+}
+
+.main-menu ul li a {
+    padding: 3px 130px; 
+    color: rgb(52, 49, 49);
+    height: 20px;
+    width: 50px;
+    text-decoration: none;
+}
+
+.main-menu a:hover{
+    background-color: rgb(224, 108, 58);
+    padding: 3px 130px;
+
+}
+
+body {
+    background-color: rgb(255, 168, 204);
+}
